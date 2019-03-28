@@ -1,0 +1,24 @@
+﻿@page "/"
+
+@using kakao.net
+@inject Microsoft.JSInterop.IJSRuntime JSRuntime
+
+<div id="map" style="width:100%;height:400px;"></div>
+
+<div>
+    <button class="btn btn-primary" onclick="@onClickDrawMap">DrawMap</button>
+    <button class="btn btn-primary" onclick="@onClickDrawTraffic">DrawTraffic</button>
+</div>
+
+@functions
+{
+    private async void onClickDrawMap()
+    {
+        await JSRuntime.InvokeAsync<bool>("kakaoMapInterop.drawMap", 33.450701, 126.570667);
+    }
+
+    private async void onClickDrawTraffic()
+    {
+        await JSRuntime.InvokeAsync<bool>("kakaoMapInterop.drawTraffic", 37.566826, 126.9786567);
+    }
+}

@@ -1,0 +1,24 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<package xmlns="http://schemas.microsoft.com/packaging/2012/06/nuspec.xsd">
+  <metadata>
+    <id>Kakao.Net</id>
+    <version>0.1.0</version>
+    <title>Kakao.Net</title>
+    <authors>SeongAhn Lee</authors>
+    <owners>SeongAhn Lee</owners>
+    <requireLicenseAcceptance>false</requireLicenseAcceptance>
+    <projectUrl>https://lisa3907.github.io/Kakao.Net/</projectUrl>
+    <description>A kakao component library for Blazor</description>
+    <tags>blazor kakao netcore dotnet</tags>
+    <repository url="https://github.com/lisa3907/Kakao.Net" />
+    <dependencies>
+      <group targetFramework=".NETStandard2.0">
+        <dependency id="Microsoft.AspNetCore.Blazor" version="0.9.0-preview3-19154-02" exclude="Build,Analyzers" />
+        <dependency id="Microsoft.AspNetCore.Blazor.Build" version="0.9.0-preview3-19154-02" exclude="Build,Analyzers" />
+      </group>
+    </dependencies>
+  </metadata>
+  <files>
+    <file src="D:\github.com\lisa3907\kakao.net\src\kakao.net\bin\Debug\netstandard2.0\kakao.net.dll" target="lib\netstandard2.0\kakao.net.dll" />
+  </files>
+</package>

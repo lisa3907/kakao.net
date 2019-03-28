@@ -1,0 +1,17 @@
+﻿<div class="@classname">
+    @ChildContent
+</div>
+
+
+@functions {
+    private string classname
+    {
+        get
+        {
+            return $"{Class}";
+        }
+    }
+
+    [Parameter] private string Class { get; set; }
+    [Parameter] private RenderFragment ChildContent { get; set; }
+}

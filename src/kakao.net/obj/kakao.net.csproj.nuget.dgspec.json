@@ -1,0 +1,76 @@
+{
+  "format": 1,
+  "restore": {
+    "D:\\github.com\\lisa3907\\kakao.net\\src\\kakao.net\\kakao.net.csproj": {}
+  },
+  "projects": {
+    "D:\\github.com\\lisa3907\\kakao.net\\src\\kakao.net\\kakao.net.csproj": {
+      "version": "0.1.0",
+      "restore": {
+        "projectUniqueName": "D:\\github.com\\lisa3907\\kakao.net\\src\\kakao.net\\kakao.net.csproj",
+        "projectName": "Kakao.Net",
+        "projectPath": "D:\\github.com\\lisa3907\\kakao.net\\src\\kakao.net\\kakao.net.csproj",
+        "packagesPath": "C:\\Users\\odin01\\.nuget\\packages\\",
+        "outputPath": "D:\\github.com\\lisa3907\\kakao.net\\src\\kakao.net\\obj\\",
+        "projectStyle": "PackageReference",
+        "fallbackFolders": [
+          "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"
+        ],
+        "configFilePaths": [
+          "C:\\Users\\odin01\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "netstandard2.0"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "C:\\Users\\odin01\\Downloads": {},
+          "https://api.nuget.org/v3/index.json": {},
+          "https://dotnet.myget.org/F/dotnet-core/api/v3/index.json": {},
+          "https://dotnetfeed.blob.core.windows.net/aspnet-aspnetcore-tooling/index.json": {},
+          "https://dotnetfeed.blob.core.windows.net/aspnet-aspnetcore/index.json": {},
+          "https://dotnetfeed.blob.core.windows.net/aspnet-entityframeworkcore/index.json": {},
+          "https://dotnetfeed.blob.core.windows.net/aspnet-extensions/index.json": {},
+          "https://dotnetfeed.blob.core.windows.net/dotnet-core/index.json": {},
+          "https://dotnetfeed.blob.core.windows.net/dotnet-windowsdesktop/index.json": {}
+        },
+        "frameworks": {
+          "netstandard2.0": {
+            "projectReferences": {}
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "netstandard2.0": {
+          "dependencies": {
+            "Microsoft.AspNetCore.Blazor": {
+              "target": "Package",
+              "version": "[0.9.0-preview3-19154-02, )"
+            },
+            "Microsoft.AspNetCore.Blazor.Build": {
+              "target": "Package",
+              "version": "[0.9.0-preview3-19154-02, )"
+            },
+            "NETStandard.Library": {
+              "suppressParent": "All",
+              "target": "Package",
+              "version": "[2.0.3, )",
+              "autoReferenced": true
+            }
+          },
+          "imports": [
+            "net461"
+          ],
+          "assetTargetFallback": true,
+          "warn": true
+        }
+      }
+    }
+  }
+}
