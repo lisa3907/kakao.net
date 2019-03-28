@@ -11,9 +11,9 @@
     <Authors>SeongAhn Lee</Authors>
     <Title>Kakao.Net</Title>
     <Description>A kakao component library for Blazor</Description>
-    <PackageProjectUrl>https://lisa3907.github.io/Kakao.Net/</PackageProjectUrl>
+    <PackageProjectUrl>https://lisa3907.github.io/kakao.net/</PackageProjectUrl>
     <PackageTags>blazor;kakao;netcore;dotnet</PackageTags>
-    <RepositoryUrl>https://github.com/lisa3907/Kakao.Net</RepositoryUrl>
+    <RepositoryUrl>https://github.com/lisa3907/kakao.net</RepositoryUrl>
     <GeneratePackageOnBuild>true</GeneratePackageOnBuild>
     <Company>OdinSoft</Company>
     <Copyright></Copyright>
