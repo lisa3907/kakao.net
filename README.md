@@ -10,10 +10,10 @@ This project started in 2019/03. I plan to update it continuously.
 
 ## Install
 
-You can also clone it into your project directory from [kakao-net GitHub repository](https://github.com/lisa3907/kakao-net):
+You can also clone it into your project directory from [kakao-net GitHub repository](https://github.com/lisa3907/kakao.net):
 
 ```shell
-git clone https://github.com/lisa3907/kakao-net.git
+git clone https://github.com/lisa3907/kakao.net.git
 ```
 
 
